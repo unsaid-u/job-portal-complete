@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Inter&family=Rubik&display=swap');
+
+*{
+    font-family: "Inter", "Lato", sans-serif;
+    /* background-color:#F7F9F9; */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #F8F9F9; */
+    background: linear-gradient(white, #FDFEFE,#F8F9F9,#F4F6F6);
+}
+
+.normal-wrapper{
+    border: 2px solid #ABB2B9;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* .MuiContainer-maxWidthXl{
+    width: 30%;
+} */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }

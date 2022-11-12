@@ -1,0 +1,59 @@
+.candidate-tile-wrapper{
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px black solid;
+    border-radius: 10px;
+    /* padding: 5px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 7px;
+    background-color :#F0F3F4;
+}
+
+.candidate-tile-1{
+    flex-basis: 25%;
+}
+
+.candidate-tile-2{
+    flex-basis: 40%;
+}
+
+.candidate-tile-3{
+    flex-basis: 15%;
+}
+
+.candidate-tile-4{
+    flex-basis: 20%;
+    
+}
+
+#name{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.spans{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.side-options{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: right;
+}
+
+a{
+    color: black;
+}
+
+.applications-table{
+    padding: 10px;
+    border : 1px #2C3E50 solid;
+    border-radius: 5px;
+}
